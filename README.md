@@ -6,12 +6,19 @@
 [![预览](https://img.shields.io/badge/%E9%A2%84%E8%A7%88-blue)](http://www.ldos.net/)
 
 ## 说明
-    1.sparrowPHP是一个简美的php框架，易于新手上路，适合开展服务器渲染页面的项目。改编此文档时，这个项目可能停止更新，
-    如果你想创建后台单页应用，建议使用[PHPapi](https://github.com/pqshawn/PHPapi-Framework) + [LdosCms](https://github.com/pqshawn/LdosCms)，我会在里面加入前台页面生成等，前台页面即改即生成。
-    关于这个项目会继续维护，像这个lastest版本，大于等于php5.2都可以支持，
-    如果低于php7的，建议修改config文件： define('DB_DRIVER', 'mysql'); 如果是php7以上版本，建议改为mysqli。
-    2.others文件夹里有针对版本的php.ini，注意要打开short_open_tag = On 。
-    3.另外nginx与apache环境的rewrite规则，apache服务可把others/.htaccess拷贝到项目application里。nginx的vhost项目配置可直接拷走使用。
+
+1.sparrowPHP是一个简美的php框架，易于新手上路，适合开展服务器渲染页面的项目。改编此文档时，这个项目可能停止更新，
+<br/>    
+如果你想创建后台单页应用，建议使用[PHPapi](https://github.com/pqshawn/PHPapi-Framework) + [LdosCms](https://github.com/pqshawn/LdosCms)，我会在里面加入前台页面生成等，前台页面即改即生成。
+<br/>     
+关于这个项目会继续维护，像这个lastest版本，大于等于php5.2都可以支持，
+<br/>  
+如果低于php7的，建议修改config文件： define('DB_DRIVER', 'mysql'); 如果是php7以上版本，建议改为mysqli。
+<br/>  
+2.others文件夹里有针对版本的php.ini，注意要打开short_open_tag = On 。
+<br/>  
+3.另外nginx与apache环境的rewrite规则，apache服务可把others/.htaccess拷贝到项目application里。nginx的vhost项目配置可直接拷走使用。
+<br/>  
 
 ## 一、部署环境
     假设你已经有PHP可执行项目的环境。如果没有，可安装xampp等集成包。
@@ -45,7 +52,7 @@
     在/databases文件夹下,如果是Linux系统，直接命令导入
     mysql -hlocalhost -uroot -p123456 < post.sql 
 ### 5.访问
-    显示css叠云映射镜像的简单页面，如果vr虚拟技术支持的话，可在空气中滑动（很超前，只存在想像中）
+    显示css叠云映射镜像的简单页面，如果vr虚拟技术支持的话，可在空气中滑动（很超前吧，vr可运行在空气中的话，我们就可以）
 
 
     
