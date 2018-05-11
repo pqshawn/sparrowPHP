@@ -1,0 +1,139 @@
+<html>
+<head>
+<title>农行网上支付平台-商户接口范例-支付请求</title>
+</head>
+<body style="font-size: 14px;">
+	<center>支付请求</center>
+	<form id="form1" action="MerchantQuickPaymentReq.php" method="post">
+		<Label ID="lblMessage"></Label> <br />
+		<table>
+			<tr>
+				<td>交易类型</td>
+				<td style="width: 158px"><select name="PayTypeID">
+						<option Value="ImmediatePay" Selected="True">直接支付</option>
+						<option Value="DividedPay">分期支付</option>
+				</select>*必输</td>
+			</tr>
+			<tr>
+				<td>订单支付有效期</td>
+				<td><input name="orderTimeoutDate" value="20140619104901" />精确到秒，选输</td>
+			</tr>
+			<tr>
+				<td>交易编号</td>
+				<td><input name="PaymentRequestNo" value="ON200412230001" />*必输</td>
+			</tr>
+			<tr>
+				<td>交易币种</td>
+				<td><input name="CurrencyCode" value="156" />156:人民币,*必输</td>
+			</tr>
+			<tr>
+				<td>交易金额</td>
+				<td><input name="PaymentRequestAmount" value="2.00" />保留小数点后两位数字,*必输</td>
+			</tr>
+			<tr>
+				<td>订单保存时间</td>
+				<td><input name="ExpiredDate" value="30" />单位:天，*选输</td>
+			</tr>
+			<tr>
+				<td>订单说明</td>
+				<td><input name="OrderDesc" value="Game Card Order" /></td>
+			</tr>
+			<tr>
+				<td>订单日期</td>
+				<td><input name="OrderDate" value="2004/12/23" />（YYYY/MM/DD）*必输</td>
+			</tr>
+			<tr>
+				<td>订单时间</td>
+				<td><input name="OrderTime" value="11:55:30" />（HH:MM:SS）*必输</td>
+			</tr>
+			<tr>
+				<td>收货地址</td>
+				<td><input name="ReceiverAddress" value="北京" />选输</td>
+			</tr>
+			<tr>
+				<td>客户交易IP</td>
+				<td><input name="BuyIP" value="255.255.255.255" />选输</td>
+			</tr>
+			<tr>
+				<td>支付帐号</td>
+				<td><input name="PaymentAcctNo" value="5888888888888888" />*必输</td>
+			</tr>
+			<tr>
+				<td>手机号后四位</td>
+				<td><input name="MobilePhone" value="8888" />*必输</td>
+			</tr>
+			<tr>
+				<td>商品种类</td>
+				<td><select name="CommodityType" id="CommodityType" >
+						<option value="0101">充值类-支付账户充值(0101)</option>
+						<option value="0201">消费类-虚拟类(0201),如：游戏点卡、游戏装备、手机充值卡、礼品卡</option>
+						<option value="0202">消费类-传统类(0202),如：百货商城、数码家电、服饰、食品等</option>
+						<option value="0203">消费类-实名类(0203),如：航空售票、酒店预订、旅游产品等</option>
+						<option value="0301">转账类-本行转账(0301)</option>
+						<option value="0302">转账类-他行转账(0302)</option>
+						<option value="0401">缴费类-水费(0401)</option>
+						<option value="0402">缴费类-电费(0402)</option>
+						<option value="0403">缴费类-煤气费(0403)</option>
+						<option value="0404">缴费类-有线电视费(0404)</option>
+						<option value="0405">缴费类-通讯费(0405)</option>
+						<option value="0406">缴费类-物业费(0406)</option>
+						<option value="0407">缴费类-保险费(0407)</option>
+						<option value="0408">缴费类-行政费用(0408)</option>
+						<option value="0409">缴费类-税费(0409)</option>
+						<option value="0410">缴费类-学费(0410)</option>
+						<option value="0499">缴费类-其他(0499)</option>
+						<option value="0501">理财类-基金(0501)</option>
+						<option value="0502">理财类-理财产品(0502)</option>
+						<option value="0503">理财类-其他(0599)</option>
+				</select>*必输</td>
+			</tr>
+			<tr>
+				<td>分期标识</td>
+				<td><input name="Installment" value="1" />1：分期；0：不分期。*必输</td>
+			</tr>
+			<tr>
+				<td>分期代码</td>
+				<td><input name="ProjectID" value="01111111" />选输</td>
+			</tr>
+			<tr>
+				<td>分期期数</td>
+				<td><input name="Period" value="10" />选输</td>
+			</tr>
+			<tr>
+				<td>支付账户类型</td>
+				<td><input name="PaymentType" value="3" />1：农行卡支付 3：农行贷记卡支付
+					*必输</td>
+			</tr>
+			<tr>
+				<td>交易渠道</td>
+				<td><input name="PaymentLinkType" value="1" />1：internet网络接入
+					2：手机网络接入 *必输</td>
+			</tr>
+			<tr>
+				<td>收款方账号</td>
+				<td><input name="ReceiveAccount" value="" />选输</td>
+			</tr>
+			<tr>
+				<td>收款方户名</td>
+				<td><input name="ReceiveAccName" value="" />选输</td>
+			</tr>
+			<tr>
+				<td>附言</td>
+				<td><input name="MerchantRemarks" value="Hi" />不超过100个字符，选输</td>
+			</tr>
+			<tr>
+				<td>交易是否分账</td>
+				<td><input name="IsBreakAccount" value="1" />0:否；1:是，选输</td>
+			</tr>
+			<tr>
+				<td>分账模版编号</td>
+				<td><input name="SplitAccTemplate" value="1" />选输</td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" value="提交页面内容" /></td>
+			</tr>
+		</table>
+	</form>
+	<a href="Merchant.html">回商户首页</a>
+</body>
+</html>

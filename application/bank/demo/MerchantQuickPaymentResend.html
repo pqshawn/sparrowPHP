@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>农行网上支付平台-商户接口范例-快捷支付验证码重发</title>
+</head>
+<body style="font-size: 14px;">
+	<center>快捷支付验证码重发</center>
+	<form id="form1" action="MerchantQuickPaymentResend.php" method="post">
+		<Label ID="lblMessage"></Label> <br />
+		<table>
+			<tr>
+				<td>交易编号</td>
+				<td><input name="OrderNo" value="ON200412230001" />*必输</td>
+			</tr>
+			<tr>
+				<td>交易币种</td>
+				<td><input name="CurrencyCode" value="156" />*必输</td>
+			</tr>
+			<tr>
+				<td>交易金额</td>
+				<td><input name="OrderAmount" value="2.00" />保留小数点后两位数字，*必输</td>
+			</tr>
+			<tr>
+				<td>订单日期</td>
+				<td><input name="OrderDate" value="2004/12/23" />（YYYY/MM/DD）*必输</td>
+			</tr>
+			<tr>
+				<td>订单时间</td>
+				<td><input name="OrderTime" value="11:55:30" />（HH:MM:SS）*必输</td>
+			</tr>
+
+			<tr>
+				<td colspan="2"><input type="submit" value="提交页面内容" /></td>
+			</tr>
+		</table>
+	</form>
+	<a href="Merchant.html">回商户首页</a>
+</body>
+</html>

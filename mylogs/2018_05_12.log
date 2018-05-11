@@ -1,0 +1,173 @@
+<?php exit(); ?>
+2018-05-12 00:03:17	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:03:17	E_USER_WARNING(512)Table name is null or no exist! in /data/www/sparrowPHP/application/library/model.php on line 62
+2018-05-12 00:03:17	E_USER_WARNING(512)SQL:0 in SELECT * FROM  ORDER BY post_udate DESC, post_id DESC limit 0,19 in /data/www/sparrowPHP/application/library/db/mysqli.php on line 81
+2018-05-12 00:03:19	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:03:19	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:03:19	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 00:03:19	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 108
+2018-05-12 00:03:19	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 00:03:19	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 108
+2018-05-12 00:03:19	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 00:03:19	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 108
+2018-05-12 00:03:21	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:03:21	E_USER_WARNING(512)Table name is null or no exist! in /data/www/sparrowPHP/application/library/model.php on line 62
+2018-05-12 00:03:21	E_USER_WARNING(512)SQL:0 in SELECT * FROM  ORDER BY post_udate DESC, post_id DESC limit 0,19 in /data/www/sparrowPHP/application/library/db/mysqli.php on line 81
+2018-05-12 00:03:22	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:03:22	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:03:23	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 00:03:23	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 108
+2018-05-12 00:03:23	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 00:03:23	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 108
+2018-05-12 00:03:23	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 00:03:23	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 108
+2018-05-12 00:03:24	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:03:24	E_USER_WARNING(512)Table name is null or no exist! in /data/www/sparrowPHP/application/library/model.php on line 62
+2018-05-12 00:03:24	E_USER_WARNING(512)SQL:0 in SELECT * FROM  ORDER BY post_udate DESC, post_id DESC limit 0,19 in /data/www/sparrowPHP/application/library/db/mysqli.php on line 81
+2018-05-12 00:03:26	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:03:26	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:03:26	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 00:03:26	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 108
+2018-05-12 00:03:26	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 00:03:26	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 108
+2018-05-12 00:03:26	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 00:03:26	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 108
+2018-05-12 00:03:28	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:03:28	E_USER_WARNING(512)Table name is null or no exist! in /data/www/sparrowPHP/application/library/model.php on line 62
+2018-05-12 00:03:28	E_USER_WARNING(512)SQL:0 in SELECT * FROM  ORDER BY post_udate DESC, post_id DESC limit 0,19 in /data/www/sparrowPHP/application/library/db/mysqli.php on line 81
+2018-05-12 00:03:29	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:03:29	E_USER_WARNING(512)Table name is null or no exist! in /data/www/sparrowPHP/application/library/model.php on line 62
+2018-05-12 00:03:29	E_USER_WARNING(512)SQL:0 in SELECT * FROM  ORDER BY post_udate DESC, post_id DESC limit 0,19 in /data/www/sparrowPHP/application/library/db/mysqli.php on line 81
+2018-05-12 00:03:30	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:03:30	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:03:30	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 00:03:30	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 108
+2018-05-12 00:03:30	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 00:03:30	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 108
+2018-05-12 00:03:30	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 00:03:30	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 108
+2018-05-12 00:03:32	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:03:32	E_USER_WARNING(512)Table name is null or no exist! in /data/www/sparrowPHP/application/library/model.php on line 62
+2018-05-12 00:03:32	E_USER_WARNING(512)SQL:0 in SELECT * FROM  ORDER BY post_udate DESC, post_id DESC limit 0,19 in /data/www/sparrowPHP/application/library/db/mysqli.php on line 81
+2018-05-12 00:03:34	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:03:34	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:03:34	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 00:03:34	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 108
+2018-05-12 00:03:34	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 00:03:34	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 108
+2018-05-12 00:03:34	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 00:03:34	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 108
+2018-05-12 00:03:35	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:03:35	E_USER_WARNING(512)Table name is null or no exist! in /data/www/sparrowPHP/application/library/model.php on line 62
+2018-05-12 00:03:35	E_USER_WARNING(512)SQL:0 in SELECT * FROM  ORDER BY post_udate DESC, post_id DESC limit 0,19 in /data/www/sparrowPHP/application/library/db/mysqli.php on line 81
+2018-05-12 00:03:36	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:03:36	E_USER_WARNING(512)Table name is null or no exist! in /data/www/sparrowPHP/application/library/model.php on line 62
+2018-05-12 00:03:36	E_USER_WARNING(512)SQL:0 in SELECT * FROM  ORDER BY post_udate DESC, post_id DESC limit 0,19 in /data/www/sparrowPHP/application/library/db/mysqli.php on line 81
+2018-05-12 00:03:37	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:03:37	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:03:37	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:03:37	E_USER_WARNING(512)Table name is null or no exist! in /data/www/sparrowPHP/application/library/model.php on line 62
+2018-05-12 00:03:37	E_USER_WARNING(512)SQL:0 in SELECT * FROM  ORDER BY post_udate DESC, post_id DESC limit 0,19 in /data/www/sparrowPHP/application/library/db/mysqli.php on line 81
+2018-05-12 00:03:37	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 00:03:37	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 108
+2018-05-12 00:03:37	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 00:03:37	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 108
+2018-05-12 00:03:37	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 00:03:37	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 108
+2018-05-12 00:03:38	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:03:38	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:03:39	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 00:03:39	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 108
+2018-05-12 00:03:39	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 00:03:39	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 108
+2018-05-12 00:03:39	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 00:03:39	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 108
+2018-05-12 00:03:41	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:03:41	E_USER_WARNING(512)Table name is null or no exist! in /data/www/sparrowPHP/application/library/model.php on line 62
+2018-05-12 00:03:41	E_USER_WARNING(512)SQL:0 in SELECT * FROM  ORDER BY post_udate DESC, post_id DESC limit 0,19 in /data/www/sparrowPHP/application/library/db/mysqli.php on line 81
+2018-05-12 00:03:43	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:03:43	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:03:43	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 00:03:43	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 108
+2018-05-12 00:03:43	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 00:03:43	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 108
+2018-05-12 00:03:43	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 00:03:43	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 108
+2018-05-12 00:04:01	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:04:01	E_USER_WARNING(512)Table name is null or no exist! in /data/www/sparrowPHP/application/library/model.php on line 62
+2018-05-12 00:04:01	E_USER_WARNING(512)SQL:0 in SELECT * FROM  ORDER BY post_udate DESC, post_id DESC limit 0,19 in /data/www/sparrowPHP/application/library/db/mysqli.php on line 81
+2018-05-12 00:04:02	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:04:02	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:04:03	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 00:19:18	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:19:18	E_USER_WARNING(512)Table name is null or no exist! in /data/www/sparrowPHP/application/library/model.php on line 62
+2018-05-12 00:19:18	E_USER_WARNING(512)SQL:0 in SELECT * FROM  ORDER BY post_udate DESC, post_id DESC limit 0,19 in /data/www/sparrowPHP/application/library/db/mysqli.php on line 81
+2018-05-12 00:19:19	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:19:19	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:19:20	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 00:19:44	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:19:44	E_WARNING(2)mysqli_connect(): (HY000/1049): Unknown database 'post' in /data/www/sparrowPHP/application/library/db/mysqli.php on line 34
+2018-05-12 00:19:44	E_USER_WARNING(512)Cannot connect the Database! in /data/www/sparrowPHP/application/library/db/mysqli.php on line 37
+2018-05-12 00:19:44	E_WARNING(2)mysqli_query() expects parameter 1 to be mysqli, boolean given in /data/www/sparrowPHP/application/library/db/mysqli.php on line 40
+2018-05-12 00:19:44	E_WARNING(2)mysqli_connect(): (HY000/1049): Unknown database 'post' in /data/www/sparrowPHP/application/library/db/mysqli.php on line 34
+2018-05-12 00:19:44	E_USER_WARNING(512)Cannot connect the Database! in /data/www/sparrowPHP/application/library/db/mysqli.php on line 37
+2018-05-12 00:19:44	E_WARNING(2)mysqli_query() expects parameter 1 to be mysqli, boolean given in /data/www/sparrowPHP/application/library/db/mysqli.php on line 40
+2018-05-12 00:19:44	E_WARNING(2)mysqli_query() expects parameter 1 to be mysqli, boolean given in /data/www/sparrowPHP/application/library/db/mysqli.php on line 77
+2018-05-12 00:19:44	E_WARNING(2)mysqli_errno() expects parameter 1 to be mysqli, boolean given in /data/www/sparrowPHP/application/library/db/mysqli.php on line 81
+2018-05-12 00:19:44	E_USER_WARNING(512)SQL: in SHOW TABLES LIKE '%dos_posts%' in /data/www/sparrowPHP/application/library/db/mysqli.php on line 81
+2018-05-12 00:19:44	E_USER_WARNING(512)Table name is null or no exist! in /data/www/sparrowPHP/application/library/model.php on line 62
+2018-05-12 00:19:44	E_WARNING(2)mysqli_connect(): (HY000/1049): Unknown database 'post' in /data/www/sparrowPHP/application/library/db/mysqli.php on line 34
+2018-05-12 00:19:44	E_USER_WARNING(512)Cannot connect the Database! in /data/www/sparrowPHP/application/library/db/mysqli.php on line 37
+2018-05-12 00:19:44	E_WARNING(2)mysqli_query() expects parameter 1 to be mysqli, boolean given in /data/www/sparrowPHP/application/library/db/mysqli.php on line 40
+2018-05-12 00:19:44	E_WARNING(2)mysqli_connect(): (HY000/1049): Unknown database 'post' in /data/www/sparrowPHP/application/library/db/mysqli.php on line 34
+2018-05-12 00:19:44	E_USER_WARNING(512)Cannot connect the Database! in /data/www/sparrowPHP/application/library/db/mysqli.php on line 37
+2018-05-12 00:19:44	E_WARNING(2)mysqli_query() expects parameter 1 to be mysqli, boolean given in /data/www/sparrowPHP/application/library/db/mysqli.php on line 40
+2018-05-12 00:19:44	E_WARNING(2)mysqli_query() expects parameter 1 to be mysqli, boolean given in /data/www/sparrowPHP/application/library/db/mysqli.php on line 77
+2018-05-12 00:19:44	E_WARNING(2)mysqli_errno() expects parameter 1 to be mysqli, boolean given in /data/www/sparrowPHP/application/library/db/mysqli.php on line 81
+2018-05-12 00:19:44	E_USER_WARNING(512)SQL: in SELECT * FROM  ORDER BY post_udate DESC, post_id DESC limit 0,19 in /data/www/sparrowPHP/application/library/db/mysqli.php on line 81
+2018-05-12 00:19:45	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:19:45	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:19:46	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 00:19:48	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:19:48	E_WARNING(2)mysqli_connect(): (HY000/1049): Unknown database 'post' in /data/www/sparrowPHP/application/library/db/mysqli.php on line 34
+2018-05-12 00:19:48	E_USER_WARNING(512)Cannot connect the Database! in /data/www/sparrowPHP/application/library/db/mysqli.php on line 37
+2018-05-12 00:19:48	E_WARNING(2)mysqli_query() expects parameter 1 to be mysqli, boolean given in /data/www/sparrowPHP/application/library/db/mysqli.php on line 40
+2018-05-12 00:19:48	E_WARNING(2)mysqli_connect(): (HY000/1049): Unknown database 'post' in /data/www/sparrowPHP/application/library/db/mysqli.php on line 34
+2018-05-12 00:19:48	E_USER_WARNING(512)Cannot connect the Database! in /data/www/sparrowPHP/application/library/db/mysqli.php on line 37
+2018-05-12 00:19:48	E_WARNING(2)mysqli_query() expects parameter 1 to be mysqli, boolean given in /data/www/sparrowPHP/application/library/db/mysqli.php on line 40
+2018-05-12 00:19:48	E_WARNING(2)mysqli_query() expects parameter 1 to be mysqli, boolean given in /data/www/sparrowPHP/application/library/db/mysqli.php on line 77
+2018-05-12 00:19:48	E_WARNING(2)mysqli_errno() expects parameter 1 to be mysqli, boolean given in /data/www/sparrowPHP/application/library/db/mysqli.php on line 81
+2018-05-12 00:19:48	E_USER_WARNING(512)SQL: in SHOW TABLES LIKE '%dos_posts%' in /data/www/sparrowPHP/application/library/db/mysqli.php on line 81
+2018-05-12 00:19:48	E_USER_WARNING(512)Table name is null or no exist! in /data/www/sparrowPHP/application/library/model.php on line 62
+2018-05-12 00:19:48	E_WARNING(2)mysqli_connect(): (HY000/1049): Unknown database 'post' in /data/www/sparrowPHP/application/library/db/mysqli.php on line 34
+2018-05-12 00:19:48	E_USER_WARNING(512)Cannot connect the Database! in /data/www/sparrowPHP/application/library/db/mysqli.php on line 37
+2018-05-12 00:19:48	E_WARNING(2)mysqli_query() expects parameter 1 to be mysqli, boolean given in /data/www/sparrowPHP/application/library/db/mysqli.php on line 40
+2018-05-12 00:19:48	E_WARNING(2)mysqli_connect(): (HY000/1049): Unknown database 'post' in /data/www/sparrowPHP/application/library/db/mysqli.php on line 34
+2018-05-12 00:19:48	E_USER_WARNING(512)Cannot connect the Database! in /data/www/sparrowPHP/application/library/db/mysqli.php on line 37
+2018-05-12 00:19:48	E_WARNING(2)mysqli_query() expects parameter 1 to be mysqli, boolean given in /data/www/sparrowPHP/application/library/db/mysqli.php on line 40
+2018-05-12 00:19:48	E_WARNING(2)mysqli_query() expects parameter 1 to be mysqli, boolean given in /data/www/sparrowPHP/application/library/db/mysqli.php on line 77
+2018-05-12 00:19:48	E_WARNING(2)mysqli_errno() expects parameter 1 to be mysqli, boolean given in /data/www/sparrowPHP/application/library/db/mysqli.php on line 81
+2018-05-12 00:19:48	E_USER_WARNING(512)SQL: in SELECT * FROM  ORDER BY post_udate DESC, post_id DESC limit 0,19 in /data/www/sparrowPHP/application/library/db/mysqli.php on line 81
+2018-05-12 00:19:49	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:19:49	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:19:49	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 00:31:59	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:32:00	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:32:00	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:32:01	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 00:32:03	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:32:03	E_WARNING(2)mysqli_escape_string() expects exactly 2 parameters, 1 given in /data/www/sparrowPHP/application/library/db/mysqli.php on line 91
+2018-05-12 00:32:03	E_WARNING(2)mysqli_escape_string() expects exactly 2 parameters, 1 given in /data/www/sparrowPHP/application/library/db/mysqli.php on line 91
+2018-05-12 00:32:03	E_NOTICE(8)Undefined variable: o in /data/www/sparrowPHP/application/library/model.php on line 90
+2018-05-12 00:32:03	E_NOTICE(8)Undefined variable: o in /data/www/sparrowPHP/application/library/model.php on line 90
+2018-05-12 00:32:04	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:32:04	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:32:04	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 00:32:10	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:32:10	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 00:32:14	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:32:15	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 00:32:18	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:32:19	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 00:32:23	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 00:32:24	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107

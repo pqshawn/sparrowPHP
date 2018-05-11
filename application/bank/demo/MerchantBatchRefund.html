@@ -1,0 +1,122 @@
+﻿<html>
+<head>
+<title>农行网上支付平台-商户接口范例-批量退款</title>
+</head>
+<script language="javascript">
+	function formatIndex(index) {
+		if(index < 10)
+			return "00" + index ;
+		else if(index >= 10 && index < 100)
+			return "0" + index ;
+		else
+			return index ;
+	}
+	function addLine() {
+		var count = form1.TotalCount.value ;
+		if(isNaN(count)) {
+			alert("批次总笔数请输入数字！") ;
+			return false ;
+		}
+		count = parseInt(count) ;
+		for(var i = 1 ; i <= count; i++) {
+			var index = formatIndex(i) ;
+			var row = batch.insertRow() ;
+			for(var j = 0 ; j < 6  ; j++) {
+				var col = row.insertCell() ;
+				switch(j) {
+				case 0 :
+					col.align = "left" ;
+					col.height = "30" ;
+					col.innerHTML = index ;
+					break ;
+				case 1 :
+					col.align = "center" ;
+					col.innerHTML = "<input type=\"text\" name=\"OrderNo[]\" style=\"width:95%\" value=\"ON200905010001\">" ;
+					break ;
+				case 2 :
+					col.align = "center" ;
+					col.innerHTML = "<input type=\"text\" name=\"NewOrderNo[]\" style=\"width:95%\" value=\"ON200905010001new\">" ;
+					break ;
+				case 3 :
+					col.align = "center" ;
+					col.innerHTML = "<input type=\"text\" name=\"CurrencyCode[]\" style=\"width:95%\" value=\"156\">" ;
+					break ;
+				case 4 :
+					col.align = "center" ;
+					col.innerHTML = "<input type=\"text\" name=\"RefundAmount[]\" style=\"width:95%\" value=\"0.01\">" ;
+					break ;
+				case 5 :
+					col.align = "center" ;
+					col.innerHTML = "<input type=\"text\" name=\"Remark[]\" style=\"width:95%\" value=\"备注\">" ;
+					break ;
+				}
+				
+			}			
+		}
+		form1.payment.disabled = "" ;
+	}
+	function submitFun() {
+		form1.submit() ;
+	}
+</script>
+<body style="font-size: 14px;">
+	<center>批量退款</center>
+	<form id="form1" action="MerchantBatchRefund.php" method="post">
+		<div style="color: Red; margin-bottom: 5px;"></div>
+		<br />
+		<table>
+			<tr>
+				<td>订单日期</td>
+				<td><input name="BatchDate" value="2004/12/23" />（YYYY/MM/DD）*必输</td>
+			</tr>
+			<tr>
+				<td>订单时间</td>
+				<td><input name="BatchTime" value="11:55:30" />（HH:MM:SS）*必输</td>
+			</tr>
+			<tr>
+				<td>商户退款账号</td>
+				<td><input name="MerRefundAccountNo" value="5888888888888888" />选输</td>
+			</tr>
+			<tr>
+				<td>商户退款名</td>
+				<td><input name="MerRefundAccountName" value="测试商户" />选输</td>
+			</tr>
+			<tr>
+				<td>批量编号</td>
+				<td><input name="BatchNo" value="" />*必输</td>
+			</tr>
+			<tr>
+				<td>交易总笔数</td>
+				<td><input name="TotalCount" value="10">*必输</td>
+			</tr>
+			<tr>
+				<td>交易总金额</td>
+				<td><input name="TotalAmount" value="0.10">*必输</td>
+				<td><input type="button" value=" 添加 " name="AddOrder"
+					onclick="addLine()"></td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<table border="1" style="font-size: 12px;" width="100%" id="batch">
+						<tr>
+							<td width="15%" align="center">序号</td>
+							<td width="15%" align="center">原交易编号</td>
+							<td width="15%" align="center">交易编号</td>
+							<td width="15%" align="center">交易币种</td>
+							<td width="15%" align="center">交易金额</td>
+							<td width="15%" align="center">备注</td>
+						<tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="button" value="批量提交"
+					name="payment" disabled="disabled" onclick="submitFun()"></td>
+			</tr>
+		</table>
+	</form>
+	<center>
+		<a href="Merchant.html">回商户首页</a>
+	</center>
+</body>
+</html>

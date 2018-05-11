@@ -1,0 +1,58 @@
+
+<HTML>
+<HEAD>
+<TITLE>农行网上支付平台-商户接口范例-预授权确认/取消</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#0000FF"
+	ALINK="#FF0000">
+	<CENTER>预授权确认/取消</CENTER>
+	<FORM name="form1" action="SubmitPreAuthPayment.php" method=post>
+		<TABLE>
+			<TR>
+				<TD>交易类型</TD>
+				<TD><select name="PayTypeID">
+						<option value="Cancel">预授权取消</option>
+						<option value="Confirm" Selected="True">预授权确认</option>
+				</select>*必输</TD>
+			</TR>
+			<TR>
+				<TD>订单日期</TD>
+				<TD><INPUT NAME="OrderDate" VALUE="2014/04/16">（YYYY/MM/DD）*必输</TD>
+			</TR>
+			<TR>
+				<TD>订单时间</TD>
+				<TD><INPUT NAME="OrderTime" VALUE="11:55:30">（HH:MM:SS）*必输</TD>
+			</TR>
+			<TR>
+				<TD>订单编号</TD>
+				<TD><INPUT NAME="OrderNo" VALUE="ON200306300001">*必输</TD>
+			</TR>
+			<TR>
+				<TD>原订单编号</TD>
+				<TD><INPUT NAME="OriginalOrderNo" VALUE="ON200306300002">*必输</TD>
+			</TR>
+			<TR>
+				<TD>交易币种</TD>
+				<TD><INPUT NAME="CurrencyCode" VALUE="156">156:人民币,*必输</TD>
+			</TR>
+			<TR>
+				<TD>订单金额</TD>
+				<TD><INPUT NAME="OrderAmount" VALUE="100.00">*必输</TD>
+			</TR>
+			<TR>
+				<TD>手续费金额</TD>
+				<TD><INPUT NAME="Fee" VALUE="1.00">选输</TD>
+			</TR>
+			<TR>
+				<TD>附言</TD>
+				<TD><INPUT NAME="MerchantRemarks" VALUE="loki">不超过100个字符，选输</TD>
+			</TR>
+			<TR>
+				<TD colspan=2><INPUT type="submit">
+		</TABLE>
+	</FORM>
+	<CENTER>
+		<a href="Merchant.html">回商户首页</a>
+	</CENTER>
+</BODY>
+</HTML>

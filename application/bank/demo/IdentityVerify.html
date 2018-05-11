@@ -1,0 +1,81 @@
+<html>
+<head>
+<title>农行网上支付平台-商户接口范例-身份验证</title>
+</head>
+<body style="font-size: 14px;">
+	<center>身份验证</center>
+	<form name="form1" action="IdentityVerify.php" method="post">
+		<Label ID="lblMessage"></Label>
+		<table>
+			<tr>
+				<td>客户类型</td>
+				<td><input name="CustomType" value="1" />0：个人，1：对公 *必输</td>
+			</tr>
+			<tr>
+				<td>请求日期</td>
+				<td><input name="OrderDate" value="2008/01/17" />
+					*必输，格式要求为YYYY/MM/DD</td>
+			</tr>
+			<tr>
+				<td>请求时间</td>
+				<td><input name="OrderTime" value="09:10:10" />
+					*必输，格式为HH:MM:SS</td>
+			</tr>
+			<tr>
+				<td>证件类型</td>
+				<td><select name="ddlCertificateType">
+						<option value="I">公民身份证</option>
+						<option value="P">中国护照</option>
+						<option value="S">军人身份证</option>
+						<option value="J">警官证</option>
+						<option value="K">户口簿</option>
+						<option value="T">临时身份证</option>
+						<option value="F">外国护照</option>
+						<option value="D">港澳通行证</option>
+						<option value="W">台胞通行证</option>
+						<option value="R">离休干部荣誉证</option>
+						<option value="B">军官退休证</option>
+						<option value="A">文职干部退休证</option>
+						<option value="C">军事院校学员证</option>
+						<option value="E">武装警察身份证</option>
+						<option value="G">军官证</option>
+						<option value="H">文职干部证</option>
+						<option value="L">军人士兵证</option>
+						<option value="M">武警士兵证</option>
+						<option value="U">其他证件</option>
+				</select> *必输</td>
+			</tr>
+			<tr>
+				<td>证件号码</td>
+				<td><input name="CertificateNo" value="350624560911051" />
+					*必输</td>
+			</tr>
+			<tr>
+				<td>银行卡号</td>
+				<td><input name="BankCardNo" value="9559980120333681118" />
+					*必输</td>
+			</tr>
+			<tr>
+				<td>结果接收URL</td>
+				<td><input name="ResultNotifyURL"
+					value="http://localhost/demo/IdentityVerifyResult.php" />*必输</td>
+			</tr>
+			<tr>
+				<td>交易渠道</td>
+				<td><input name="PaymentLinkType" value="1" />1：internet网络接入
+					2：手机网络接入 *必输</td>
+
+				<tr>
+				<td colspan="2"><input type="submit" value="提交页面内容" />
+
+				</td>
+			</tr>
+			
+        
+		</table>
+    </form>
+    <center>
+		<a href="Merchant.html">回商户首页</a>
+	</center>
+</body>
+</html>

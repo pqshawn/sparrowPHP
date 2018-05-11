@@ -1,0 +1,39 @@
+<HTML>
+<HEAD>
+<TITLE>农行网上支付平台-商户接口范例-订单查询</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#0000FF"
+	ALINK="#FF0000">
+	<CENTER>交易查询</CENTER>
+	<FORM name="form1" action="MerchantQueryOrder.php" method="POST">
+		<TABLE>
+			<TR>
+				<TD>交易类型</TD>
+				<TD><select name="PayTypeID">
+						<option value="ImmediatePay">直接支付</option>
+						<option value="PreAuthPay">预授权支付</option>
+						<option value="DividedPay">分期支付</option>
+						<option value="AgentPay">授权支付</option>
+						<option value="Refund">退款</option>
+						<option value="DefrayPay">付款</option>
+						<option value="PreAuthed">预授权确认</option>
+						<option value="PreAuthCancel">预授权取消</option>
+				</select></TD>
+			</TR>
+			<TR>
+				<TD>OrderNo</TD>
+				<TD><INPUT NAME="OrderNo" VALUE="ON200306300001">*必输</TD>
+			</TR>
+			<TR>
+				<TD>QueryType（0：状态查询； 1：详细查询）</TD>
+				<TD><INPUT NAME="QueryType" VALUE="0">*必输</TD>
+			</TR>
+			<TR>
+				<TD colspan=2><INPUT type="submit" value="提交">
+		</TABLE>
+	</FORM>
+	<CENTER>
+		<a href="Merchant.html">回商户首页</a>
+	</CENTER>
+</BODY>
+</HTML>

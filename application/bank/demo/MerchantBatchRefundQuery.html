@@ -1,0 +1,31 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>农行网上支付平台-商户接口范例-查询批量处理结果</title>
+</head>
+<body style="font-size: 14px;">
+	<center>查询批量处理结果</center>
+	<form id="form1" action="MerchantBatchRefundQuery.php" method="post">
+		<Label ID="lblMessage"></Label> <br />
+		<table>
+			<tr>
+				<td>订单日期</td>
+				<td><input name="BatchDate" value="2004/12/23" />（YYYY/MM/DD）*必输</td>
+			</tr>
+			<tr>
+				<td>订单时间</td>
+				<td><input name="BatchTime" value="11:55:30" />（HH:MM:SS）*必输</td>
+			</tr>
+			<tr>
+				<td>批量编号</td>
+				<td><input name="SerialNumber" value="1234" /> *必输</td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" value="提交页面内容" /></td>
+			</tr>
+		</table>
+	</form>
+	<center>
+		<a href="Merchant.html">回商户首页</a>
+	</center>
+</body>
+</html>

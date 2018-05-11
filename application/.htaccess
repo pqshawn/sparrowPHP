@@ -1,0 +1,21 @@
+AddEncoding gzip .jgz
+AddType "text/javascript;charset=UTF-8" .jgz
+
+AddEncoding gzip .zcss
+AddType "text/css;charset=UTF-8" .zcss
+
+<IfModule mod_rewrite.c>
+RewriteEngine  on
+
+RewriteBase /
+RewriteRule ^themes/.*\.(html|xml)$ / [F]
+RewriteCond %{REQUEST_FILENAME} \.(html|xml|json|htm|php|php2|php3|php4|php5|phtml|pwml|inc|asp|aspx|ascx|jsp|cfm|cfc|pl|cgi|shtml|shtm|phtm)$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?$1 [L]
+</IfModule>
+
+<IfModule mod_security.c>
+SecFilterEngine Off
+SecFilterScanPOST Off
+</IfModule>

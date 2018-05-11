@@ -1,0 +1,55 @@
+﻿<html>
+<head>
+<title>农行网上支付平台-商户接口范例-单笔退款</title>
+</head>
+<body style="font-size: 14px;">
+	<center>单笔退款</center>
+	<form id="form1" action="MerchantRefund.php" method="post">
+		<br />
+		<table>
+			<tr>
+				<td>订单日期</td>
+				<td><input name="OrderDate" value="2014/09/24" />（YYYY/MM/DD）*必输</td>
+			</tr>
+			<tr>
+				<td>订单时间</td>
+				<td><input name="OrderTime" value="11:55:30" />（HH:MM:SS）*必输</td>
+			</tr>
+			<tr>
+				<td>商户退款账号</td>
+				<td><input name="MerRefundAccountNo" value="6228300010032044" />选输</td>
+			</tr>
+			<tr>
+				<td>商户退款名</td>
+				<td><input name="MerRefundAccountName" value="测试商户" />选输</td>
+			</tr>
+			<tr>
+				<td>原交易编号</td>
+				<td><input name="OrderNo" value="ON20140923010" />*必输</td>
+			</tr>
+			<tr>
+				<td>交易编号</td>
+				<td><input name="NewOrderNo" value="ON20140923012_new" />*必输</td>
+			</tr>
+			<tr>
+				<td>交易币种</td>
+				<td><input name="CurrencyCode" value="156" />156:人民币,*必输</td>
+			</tr>
+			<tr>
+				<td>TrxAmount</td>
+				<td><input name="TrxAmount" value="1" />*必输</td>
+			</tr>
+			<tr>
+				<td>附言</td>
+				<td><input name="MerchantRemarks" value="Hi" />不超过100个字符，选输</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+			<tr>
+				<td colspan="2"><input type="submit" value="提交页面内容" /></td>
+			</tr>
+		</table>
+	</form>
+	<a href="Merchant.html">回商户首页</a>
+</body>
+</html>

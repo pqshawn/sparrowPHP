@@ -1,0 +1,111 @@
+﻿<html>
+<head>
+<title>农行网上支付平台-商户接口范例-授权支付签约（商户端）</title>
+</head>
+<body style="font-size: 14px;">
+	<center>授权支付签约（商户端）</center>
+	<form id="form1" action="QuickAgentSignContract.php" method="post">
+		<table>
+			<tr>
+				<td>请求日期</td>
+				<td><input name="RequestDate" value="2009/05/08" />
+					格式要求为YYYY/MM/DD *必输</td>
+			</tr>
+			<tr>
+				<td>请求时间</td>
+				<td><input name="RequestTime" value="09:10:10" /> 格式为HH:MM:SS
+					*必输</td>
+			</tr>
+			<tr>
+				<td>订单编号</td>
+				<td><input name="OrderNo" value="ON200905080001" /> *必输</td>
+			</tr>
+			<tr>
+				<td>签约渠道</td>
+				<td><input name="PaymentLinkType" value="1" />1：internet网络接入
+					2：手机网络接入 3:数字电视网络接入 4:智能客户端，*必输</td>
+			</tr>
+			<tr>
+				<td>客户编号</td>
+				<td><input name="MerCustomNo" value="1" />选输</td>
+			</tr>
+			<tr>
+				<td>签约编号</td>
+				<td><input name="AgentSignNo" value="1" />选输</td>
+			</tr>
+			<tr>
+				<td>签约账号</td>
+				<td><input name="CardNo" value="5359111111111111" /> *必输</td>
+			</tr>
+			<tr>
+				<td>签约卡类型</td>
+				<td><input name="CardType" value="1" /> 1:农行借记卡准贷记卡 3:农行贷记卡
+					A:农行卡合并 *必输</td>
+			</tr>
+			<tr>
+				<td>签约手机号</td>
+				<td><input name="MobileNo" value="13888888888" /> *必输</td>
+			</tr>
+			<tr>
+				<td>签约有效期</td>
+				<td><input name="InvaidDate" value="2014/04/14" />格式要求为YYYY/MM/DD
+					*必输</td>
+			</tr>
+			<tr>
+				<td>签约标识</td>
+				<td><input name="IsSign" value="Sign" />签约，*必输</td>
+			</tr>
+			<tr>
+				<td>证件类型</td>
+				<!--
+                <td>
+                	<input name="CertificateType" value="" />*必输
+                </td>
+                -->
+				<td><select name="CertificateType">
+						<option Value="I">公民身份证</option>
+						<option Value="P">中国护照</option>
+						<option Value="S">军人身份证</option>
+						<option Value="J">警官证</option>
+						<option Value="K">户口簿</option>
+						<option Value="T">临时身份证</option>
+						<option Value="F">外国护照</option>
+						<option Value="D">港澳通行证</option>
+						<option Value="W">台胞通行证</option>
+						<option Value="R">离休干部荣誉证</option>
+						<option Value="B">军官退休证</option>
+						<option Value="A">文职干部退休证</option>
+						<option Value="C">军事院校学员证</option>
+						<option Value="E">武装警察身份证</option>
+						<option Value="G">军官证</option>
+						<option Value="H">文职干部证</option>
+						<option Value="L">军人士兵证</option>
+						<option Value="M">武警士兵证</option>
+						<option Value="U">其他证件</option>
+				</select> 目前只支持公民身份证,*必输</td>
+			</tr>
+			<tr>
+				<td>证件号码</td>
+				<td><input name="CertificateNo" value="123456789012345678" />*必输
+				</td>
+			</tr>
+			<tr>
+				<td>客户姓名</td>
+				<td><input name="AccName" value="张三" />*必输</td>
+			</tr>
+			<tr>
+				<td>贷记卡CVV2</td>
+				<td><input name="CVV2" value="123" />*贷记卡必输</td>
+			</tr>
+			<tr>
+				<td>贷记卡到期日</td>
+				<td><input name="CardDueDate" value="0715" />MMYY，*贷记卡必输</td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" value="提交页面内容" /></td>
+			</tr>
+		</table>
+	</form>
+	<a href="Merchant.html">回商户首页</a>
+</body>
+</html>

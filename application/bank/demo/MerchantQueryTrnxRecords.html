@@ -1,0 +1,35 @@
+<HTML>
+<HEAD>
+<TITLE>农行网上支付平台-商户接口范例-交易流水查询</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#0000FF"
+	ALINK="#FF0000">
+	<CENTER>交易流水查询</CENTER>
+	<FORM name="form1" action="MerchantQueryTrnxRecords.php" method="post">
+		<TABLE>
+			<TR>
+				<TD>SettleDate</TD>
+				<TD><INPUT NAME=SettleDate VALUE="2014/04/25">（YYYY/MM/DD）*必输</TD>
+			</TR>
+			<TR>
+				<TD>SettleStartHour</TD>
+				<TD><INPUT NAME=SettleStartHour VALUE="0">（0—23）*必输</TD>
+			</TR>
+			<TR>
+				<TD>SettleEndHour</TD>
+				<TD><INPUT NAME=SettleEndHour VALUE="10">（0—23）大于起始时间
+					*必输</TD>
+			</TR>
+			<TR>
+				<TD>压缩标识</TD>
+				<TD><INPUT NAME=ZIP VALUE="1">1：压缩，0：不压缩 *必输</TD>
+			</TR>
+			<TR>
+				<TD colspan=2><INPUT type="submit">
+		</TABLE>
+	</FORM>
+	<CENTER>
+		<a href="Merchant.html">回商户首页</a>
+	</CENTER>
+</BODY>
+</HTML>

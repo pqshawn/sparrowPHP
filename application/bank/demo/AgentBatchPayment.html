@@ -1,0 +1,247 @@
+﻿<html>
+<head>
+<title>农行网上支付平台-商户接口示例-批量授权扣款</title>
+</head>
+
+<script language="javascript">
+	function formatIndex(index) {
+		if (index < 10)
+			return "00" + index;
+		else if (index >= 10 && index < 10000)
+			return "0" + index;
+		else
+			return index;
+	}
+	function addLine() {
+
+		var count = form1.AgentCount.value;
+		if (isNaN(count)) {
+			alert("批次总笔数请输入数字！");
+			return false;
+		}
+		count = parseInt(count);
+		for (var i = 1; i <= count; i++) {
+			var index = formatIndex(i);
+			var row = batch.insertRow();
+			for (var j = 0; j < 28; j++) {
+				var col = row.insertCell();
+				switch (j) {
+				case 0:
+					col.align = "left";
+					col.height = "30";
+					col.innerHTML = "<input type=\"text\" name=\"SeqNo[]\" style=\"width:95%\" value=\""
+							+ i + "\">";
+					break;
+				case 1:
+					col.align = "center";
+					col.innerHTML = "<input type=\"text\" name=\"OrderNo[]\" style=\"width:95%\" value=\""
+							+ form1.BatchNo.value + index + "\">";
+					break;
+				case 2:
+					col.align = "center";
+					col.innerHTML = "<input type=\"text\" name=\"AgentSignNo[]\" style=\"width:95%\" value=\""
+							+ i + "\">";
+					break;
+				case 3:
+					col.align = "center";
+					col.innerHTML = "<input type=\"text\" name=\"CardNo[]\" style=\"width:95%\" value=\"5443333333333333\">";
+					break;
+				case 4:
+					col.align = "center";
+					col.innerHTML = "<input type=\"text\" name=\"OrderAmount[]\" style=\"width:95%\" value=\"0.01\">";
+					break;
+				case 5:
+					col.align = "center";
+					col.innerHTML = "<input type=\"text\" name=\"ReceiverAddress[]\" style=\"width:95%\" value=\"北京\">";
+					break;
+				case 6:
+					col.align = "center";
+					col.innerHTML = "<input type=\"text\" name=\"Fee[]\" style=\"width:95%\" value=\"0.01\">";
+					break;
+				case 7:
+					col.align = "center";
+					col.innerHTML = "<input type=\"text\" name=\"CertificateNo[]\" style=\"width:95%\" value=\"370622222222222222\">";
+					break;
+				case 8:
+					col.align = "center";
+					col.innerHTML = "<input type=\"text\" name=\"InstallmentMark[]\" style=\"width:95%;\" value=\"1\">";
+					break;
+				case 9:
+					col.align = "center";
+					col.innerHTML = "<input type=\"text\" name=\"InstallmentCode[]\" style=\"width:95%;\" value=\"11111111\">";
+					break;
+				case 10:
+					col.align = "center";
+					col.innerHTML = "<input type=\"text\" name=\"InstallmentNum[]\" style=\"width:95%;\" value=\"11\">";
+					break;
+				case 11:
+					col.align = "center";
+					col.innerHTML = "<input type=\"text\" name=\"CommodityType[]\" style=\"width:95%\" value=\"0101\">";
+					break;
+				case 12:
+					col.align = "center";
+					col.innerHTML = "<input type=\"text\" name=\"SubMerName[]\" style=\"width:95%\" value=\"测试商户\""
+							+ index + "\">";
+					break;
+				case 13:
+					col.align = "center";
+					col.innerHTML = "<input type=\"text\" name=\"SubMerId[]\" style=\"width:95%\" value=\"43424242\">";
+					break;
+				case 14:
+					col.align = "center";
+					col.innerHTML = "<input type=\"text\" name=\"SubMerMCC[]\" style=\"width:95%\" value=\"1234\">";
+					break;
+				case 15:
+					col.align = "center";
+					col.innerHTML = "<input type=\"text\" name=\"SubMerchantRemarks[]\" style=\"width:95%\" value=\"测试商户账单\">";
+					break;
+				case 16:
+					col.align = "center";
+					col.innerHTML = "<input type=\"text\" name=\"ProductID[]\" style=\"width:95%\" value=\"IP00"
+							+ i + "\">";
+					break;
+				case 17:
+					col.align = "center";
+					col.innerHTML = "<input type=\"text\" name=\"ProductName[]\" style=\"width:95%\" value=\"测试商品\">";
+					break;
+				case 18:
+					col.align = "center";
+					col.innerHTML = "<input type=\"text\" name=\"UnitPrice[]\" style=\"width:95%\" value=\"1.00\">";
+					break;
+				case 19:
+					col.align = "center";
+					col.innerHTML = "<input type=\"text\" name=\"Qty[]\" style=\"width:95%\" value=\""
+							+ index + "\">";
+					break;
+				case 20:
+					col.align = "center";
+					col.innerHTML = "<input type=\"text\" name=\"ProductRemarks[]\" style=\"width:95%\" value=\"test\">";
+					break;
+				case 21:
+					col.align = "center";
+					col.innerHTML = "<input type=\"text\" name=\"ProductType[]\" style=\"width:95%\" value=\"1\">";
+					break;
+				case 22:
+					col.align = "center";
+					col.innerHTML = "<input type=\"text\" name=\"ProductDiscount[]\" style=\"width:95%\" value=\"1\">";
+					break;
+				case 23:
+					col.align = "center";
+					col.innerHTML = "<input type=\"text\" name=\"ProductExpiredDate[]\" style=\"width:95%\" value=\"1\">";
+					break;
+				case 24:
+					col.align = "center";
+					col.innerHTML = "<input type=\"text\" name=\"BuyIP[]\" style=\"width:95%\" value=\"127.0.0.1\">";
+					break;
+				case 25:
+					col.align = "center";
+					col.innerHTML = "<input type=\"text\" name=\"IsBreakAccount[]\" style=\"width:95%\" value=\"0\">";
+					break;
+				case 26:
+					col.align = "center";
+					col.innerHTML = "<input type=\"text\" name=\"SplitAccTemplate[]\" style=\"width:95%\" value=\"\">";
+					break;
+				case 27:
+					col.align = "center";
+					col.innerHTML = "<input type=\"text\" name=\"Remark[]\" style=\"width:95%\" value=\"测试\">";
+					break;
+				}
+
+			}
+		}
+		form1.payment.disabled = "";
+	}
+	function submitFun() {
+
+		form1.submit();
+	}
+</script>
+
+<body bgcolor="#FFFFFF" text="#000000" link="#0000FF" vlink="#0000FF"
+	alink="#FF0000">
+	<center>批量授权扣款</center>
+	<form name="form1" action="AgentBatchPayment.php" method="POST">
+		<table width="100%">
+			<tr>
+				<td>批次编号</td>
+				<td><input name="BatchNo" value="1" />*必输</td>
+			</tr>
+			<tr>
+				<td>批次日期</td>
+				<td><input name="BatchDate" value="2004/12/23" />（YYYY/MM/DD）*必输</td>
+			</tr>
+			<tr>
+				<td>批次时间</td>
+				<td><input name="BatchTime" value="11:55:30" />（HH:MM:SS）*必输，</td>
+			</tr>
+			<tr>
+				<td>批次总笔数</td>
+				<td><input name="AgentCount" value="10" /> *必输</td>
+			</tr>
+			<tr>
+				<td>批次总金额</td>
+				<td><input name="AgentAmount" value="10.00" /> *必输</td>
+				<td>
+			<tr>
+				<td>收款方账号</td>
+				<td><input name="ReceiveAccount" value="5555555555555555" />选输</td>
+			</tr>
+			<tr>
+				<td>收款方户名</td>
+				<td><input name="ReceiveAccName" value="测试" />选输</td>
+			</tr>
+			<tr>
+				<td>交易币种</td>
+				<td><input name="CurrencyCode" value="156" />156:人民币,*必输</td>
+				<td><input type="button" value=" 添加 " name="AddOrder"
+					onclick="addLine()" /></td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<table border="1" style="font-size: 17px;" width="100%" id="batch">
+						<tr>
+							<td align="center">序号</td>
+							<td align="center">交易编号</td>
+							<td align="center">签约协议号</td>
+							<td align="center">账号</td>
+							<td align="center">金额</td>
+							<td align="center">收货人地址</td>
+							<td align="center">手续费金额</td>
+							<td align="center">证件号码</td>
+							<td align="center">分期标识</td>
+							<td align="center">分期代码</td>
+							<td align="center">分期次数</td>
+							<td align="center">商品种类</td>
+							<td align="center">二级商户名称</td>
+							<td align="center">二级商户代码</td>
+							<td align="center">二级商户MCC码</td>
+							<td align="center">二级商户备注项</td>
+							<td align="center">商品代码</td>
+							<td align="center">商品名称</td>
+							<td align="center">商品总价</td>
+							<td align="center">商品数量</td>
+							<td align="center">商品备注项</td>
+							<td align="center">商品类型</td>
+							<td align="center">商品折扣</td>
+							<td align="center">商品有效期</td>
+							<td align="center">客户IP</td>
+							<td align="center">交易是否分账,0:否；1:是，*必输</td>
+							<td align="center">分账模版编号</td>
+							<td align="center">备注</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+
+
+			<tr>
+				<td colspan="2"><input type="button" value="批量提交"
+					name="payment" disabled="disabled" onclick="submitFun()"></td>
+			</tr>
+		</table>
+	</form>
+	<center>
+		<a href="Merchant.html">回商户首页</a>
+	</center>
+</body>
+</html>

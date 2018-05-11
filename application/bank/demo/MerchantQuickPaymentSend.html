@@ -1,0 +1,104 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>农行网上支付平台-商户接口范例-快捷支付请求</title>
+</head>
+<body style="font-size: 14px;">
+	<center>快捷支付请求</center>
+	<form id="form1" action="MerchantQuickPaymentSend.php" method="post">
+		<Label ID="lblMessage"></Label> <br />
+		<table>
+			<tr>
+				<td>交易编号</td>
+				<td><input name="OrderNo" value="ON200412230001" />*必输</td>
+			</tr>
+			<tr>
+				<td>交易币种</td>
+				<td><input name="CurrencyCode" value="156" />*必输</td>
+			</tr>
+			<tr>
+				<td>交易金额</td>
+				<td><input name="OrderAmount" value="2.00" />保留小数点后两位数字，*必输</td>
+			</tr>
+			<tr>
+				<td>手续费金额</td>
+				<td><input name="Fee" value="2.00" />保留小数点后两位数字,选输</td>
+			</tr>
+			<tr>
+				<td>订单日期</td>
+				<td><input name="OrderDate" value="2004/12/23" />（YYYY/MM/DD），*必输</td>
+			</tr>
+			<tr>
+				<td>订单时间</td>
+				<td><input name="OrderTime" value="11:55:30" />（HH:MM:SS），*必输</td>
+			</tr>
+			<tr>
+				<td>姓名</td>
+				<td><input name="AccName" value="Name" />选输</td>
+			</tr>
+			<tr>
+				<td>证件类型</td>
+				<!--
+                <td>
+                	<input name="CertificateType" value="I" />选输
+                </td>
+                 -->
+				<td><select name="CertificateType">
+						<option Value="I">公民身份证</option>
+						<option Value="P">中国护照</option>
+						<option Value="S">军人身份证</option>
+						<option Value="J">警官证</option>
+						<option Value="K">户口簿</option>
+						<option Value="T">临时身份证</option>
+						<option Value="F">外国护照</option>
+						<option Value="D">港澳通行证</option>
+						<option Value="W">台胞通行证</option>
+						<option Value="R">离休干部荣誉证</option>
+						<option Value="B">军官退休证</option>
+						<option Value="A">文职干部退休证</option>
+						<option Value="C">军事院校学员证</option>
+						<option Value="E">武装警察身份证</option>
+						<option Value="G">军官证</option>
+						<option Value="H">文职干部证</option>
+						<option Value="L">军人士兵证</option>
+						<option Value="M">武警士兵证</option>
+						<option Value="U">其他证件</option>
+				</select> 目前只支持公民身份证,选输</td>
+			</tr>
+			<tr>
+				<td>证件号码</td>
+				<td><input name="CertificateID" value="001" />选输</td>
+			</tr>
+			<tr>
+				<td>卡有效期</td>
+				<td><input name="ExpDate" value="0715" />选输</td>
+			</tr>
+			<tr>
+				<td>贷记卡CVV2</td>
+				<td><input name="CVV2" value="123" />选输</td>
+			</tr>
+			<tr>
+				<td>短信验证码</td>
+				<td><input name="VerifyCode" value="123456" />选输</td>
+			</tr>
+			<tr>
+				<td>支付账户类型</td>
+				<td><input name="PaymentType" value="3" />1：农行卡支付 3：农行贷记卡支付
+					A:支付方式合并 *必输</td>
+			</tr>
+			<tr>
+				<td>交易渠道</td>
+				<td><input name="PaymentLinkType" value="1" />1：internet网络接入
+					2：手机网络接入 *必输</td>
+			</tr>
+			<tr>
+				<td>MerchantRemarks</td>
+				<td><input name="MerchantRemarks" value="Hi!" />选输</td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" value="提交页面内容" /></td>
+			</tr>
+		</table>
+	</form>
+	<a href="Merchant.html">回商户首页</a>
+</body>
+</html>
