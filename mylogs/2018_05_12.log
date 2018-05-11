@@ -276,3 +276,47 @@
 2018-05-12 00:55:10	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
 2018-05-12 00:55:10	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
 2018-05-12 00:55:10	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 01:02:28	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 01:02:30	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 01:02:30	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 01:02:30	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 01:02:32	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 01:02:32	E_WARNING(2)mysqli_escape_string() expects exactly 2 parameters, 1 given in /data/www/sparrowPHP/application/library/db/mysqli.php on line 91
+2018-05-12 01:02:32	E_WARNING(2)mysqli_escape_string() expects exactly 2 parameters, 1 given in /data/www/sparrowPHP/application/library/db/mysqli.php on line 91
+2018-05-12 01:02:32	E_NOTICE(8)Undefined variable: o in /data/www/sparrowPHP/application/library/model.php on line 90
+2018-05-12 01:02:32	E_NOTICE(8)Undefined variable: o in /data/www/sparrowPHP/application/library/model.php on line 90
+2018-05-12 01:02:33	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 01:02:33	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 01:02:34	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 01:02:35	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 01:02:36	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 01:02:36	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 01:02:37	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 01:02:37	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 01:02:37	E_WARNING(2)mysqli_escape_string() expects exactly 2 parameters, 1 given in /data/www/sparrowPHP/application/library/db/mysqli.php on line 91
+2018-05-12 01:02:37	E_WARNING(2)mysqli_escape_string() expects exactly 2 parameters, 1 given in /data/www/sparrowPHP/application/library/db/mysqli.php on line 91
+2018-05-12 01:02:37	E_NOTICE(8)Undefined variable: o in /data/www/sparrowPHP/application/library/model.php on line 90
+2018-05-12 01:02:37	E_NOTICE(8)Undefined variable: o in /data/www/sparrowPHP/application/library/model.php on line 90
+2018-05-12 01:02:38	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 01:02:38	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 01:02:39	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 01:02:55	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 01:02:56	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 01:02:56	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 01:02:57	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 01:02:58	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 01:02:58	E_WARNING(2)mysqli_escape_string() expects exactly 2 parameters, 1 given in /data/www/sparrowPHP/application/library/db/mysqli.php on line 91
+2018-05-12 01:02:58	E_WARNING(2)mysqli_escape_string() expects exactly 2 parameters, 1 given in /data/www/sparrowPHP/application/library/db/mysqli.php on line 91
+2018-05-12 01:02:58	E_NOTICE(8)Undefined variable: o in /data/www/sparrowPHP/application/library/model.php on line 90
+2018-05-12 01:02:58	E_NOTICE(8)Undefined variable: o in /data/www/sparrowPHP/application/library/model.php on line 90
+2018-05-12 01:03:00	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 01:03:00	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 01:03:00	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 01:03:03	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 01:03:04	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 01:03:04	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 01:03:05	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
+2018-05-12 01:03:27	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 01:03:28	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 01:03:28	E_NOTICE(8)Undefined index: query in /data/www/sparrowPHP/application/library/router/pathinfo.php on line 70
+2018-05-12 01:03:29	E_NOTICE(8)Undefined index:  in /data/www/sparrowPHP/application/controllers/site/tool.php on line 107
