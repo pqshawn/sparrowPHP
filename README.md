@@ -7,9 +7,9 @@
 
 ## 说明
     1.sparrowPHP是一个简美的php框架，易于新手上路，适合开展服务器渲染页面的项目。改编此文档时，这个项目可能停止更新，
-如果你想创建后台单页应用，建议使用[PHPapi](https://github.com/pqshawn/PHPapi-Framework) + [LdosCms](https://github.com/pqshawn/LdosCms)，我会在里面加入前台页面生成等，前台页面即改即生成。
- 关于这个项目会继续维护，像这个lastest版本，大于等于php5.2都可以支持，
-如果低于php7的，建议修改config文件： define('DB_DRIVER', 'mysql'); 如果是php7以上版本，建议改为mysqli。
+    如果你想创建后台单页应用，建议使用[PHPapi](https://github.com/pqshawn/PHPapi-Framework) + [LdosCms](https://github.com/pqshawn/LdosCms)，我会在里面加入前台页面生成等，前台页面即改即生成。
+    关于这个项目会继续维护，像这个lastest版本，大于等于php5.2都可以支持，
+    如果低于php7的，建议修改config文件： define('DB_DRIVER', 'mysql'); 如果是php7以上版本，建议改为mysqli。
     2.others文件夹里有针对版本的php.ini，注意要打开short_open_tag = On 。
     3.另外nginx与apache环境的rewrite规则，apache服务可把others/.htaccess拷贝到项目application里。nginx的vhost项目配置可直接拷走使用。
 
