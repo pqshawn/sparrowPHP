@@ -88,7 +88,8 @@ final class MysqliDbLib implements DbInterfaceLib {
 	public function rollback() {}
 
 	public function quote($string){
-		$result = mysqli_escape_string($string);
+
+		$result = mysqli_real_escape_string($this->_link_res, $string);
         if(!$result){
             $result = addslashes($string);
         }

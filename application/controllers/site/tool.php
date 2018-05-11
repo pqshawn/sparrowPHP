@@ -102,7 +102,7 @@ class ToolSiteCon extends ControllerLib {
 					$today_icon_flag['message'] = $this->_weather_code[$code];
 				}
 			}
-			
+			if(!empty($day))
 			foreach ($day as $key => $value) {
 				$weather[$value] = ' 日:'.$this->_weather_code[$decode_res['f']['f1'][$key]['fa']]
 								. ' 夜:'.$this->_weather_code[$decode_res['f']['f1'][$key]['fb']]

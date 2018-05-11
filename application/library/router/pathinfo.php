@@ -67,7 +67,7 @@ class PathinfoRouterLib extends BaseRouterLib {
 					}
                                         if($_SERVER['REQUEST_URI']) {
 						$parse = parse_url($_SERVER['REQUEST_URI']);
-						if($parse['query']) {
+						if(isset($parse['query']) && !empty($parse['query'])) {
 							parse_str($parse['query'], $query);
 							if(is_array($query)) {
 								$action_params['parameter'] = array_merge($action_params['parameter'], $query);

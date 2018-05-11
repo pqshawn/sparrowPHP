@@ -82,7 +82,7 @@ class ModelLib extends DbFactoryLib implements ModelInterfaceLib {
 			foreach($where as $wk => $wv) {
 				$wk_arr = explode('|', $wk);
 				if(isset($wk_arr[0])) $k = $wk_arr[0];
-				if(isset($wk_arr[1])) $o = $wk_arr[1];
+				if(isset($wk_arr[1])) $o = $wk_arr[1]; else $o = '';
 				if(isset($wk_arr[2])) $and_or = strtoupper($wk_arr[2]);
 				$i > 0? (!in_array($and_or, array('AND', 'OR'))? $and_or = 'AND' : '') : $and_or = 'AND';
 				if(isset($k)) {
