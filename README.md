@@ -27,6 +27,7 @@
     $ sudo docker pull nginx
     $ sudo docker pull mysql
     $ sudo docker login --username=xxx@xxx.com registry.cn-shanghai.aliyuncs.com
+    // 推荐使用ldos最新镜像版本centos8php7.4
     $ sudo docker pull registry.cn-shanghai.aliyuncs.com/ldos/centosphp7.4
     启动
     $ docker run -d --name php-fpm -p 9000:9000 -v /data/www:/data/www  php7.4
